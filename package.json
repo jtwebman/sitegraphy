@@ -1,0 +1,38 @@
+{
+  "name": "sitegraphy",
+  "version": "0.0.1",
+  "description": "Tool for building blogs, stores, and any website.",
+  "scripts": {
+    "lint": "eslint .",
+    "start": "node server.js",
+    "test": "eslint . && nyc mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtwebman/sitegraphy.git"
+  },
+  "author": "JT Turner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jtwebman/sitegraphy/issues"
+  },
+  "homepage": "https://github.com/jtwebman/sitegraphy#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "coveralls": "^3.0.2",
+    "eslint": "^5.5.0",
+    "eslint-config-google": "^0.9.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "mocha": "^5.2.0",
+    "nyc": "^13.0.1",
+    "prettier": "^1.14.2",
+    "supertest": "^3.1.0"
+  },
+  "engines": {
+    "node": ">= 6"
+  },
+  "dependencies": {
+    "config": "^2.0.1",
+    "express": "^4.16.3"
+  }
+}
